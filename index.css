@@ -5,7 +5,7 @@ body, #container, #right, #left, #logo {
     height: 100%;
 }
 
-#container, #right, #left {
+#container, #right {
     padding-right: 2rem;
     padding-left: 2rem;
 }
@@ -47,6 +47,8 @@ h1 {
     padding-left: 2rem;
     padding-right: 2rem;
     margin-bottom: 30vh;
+    background-color: rgba(215,215,215,0.5);
+    height: 20vh;
 }
 
 #odin {
@@ -75,4 +77,20 @@ h1 {
 button {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    background-color: #596D48;
+    width: 12rem;
+    height: 2.5rem;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    width: 15rem;
+    height: 2rem;
+}
+
+input:focus {
+    border-color: blue;
 }
