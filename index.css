@@ -1,0 +1,45 @@
+body, #container, #right, #left, #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#container, #right, #left {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+#container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#container, #left, #right {
+    height: 75vh;
+}
+
+#left {
+    background-image: url("casey-horner-0D8_tYHIy0o-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#left, #logo {
+    max-width: 35%;
+}
+
+#logo {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#odin {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#right {
+    flex-direction: column;
+}
