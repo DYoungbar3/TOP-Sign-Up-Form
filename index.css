@@ -13,6 +13,8 @@ body, #container, #right, #left, #logo {
 #container {
     margin-top: 5%;
     margin-bottom: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 #container, #left, #right {
@@ -25,13 +27,26 @@ body, #container, #right, #left, #logo {
     background-size: cover;
 }
 
+#right {
+    align-items: flex-start;
+}
+
+#info {
+    padding-right: 5%;
+}
+
 #left, #logo {
     max-width: 35%;
+}
+
+h1 {
+    font-size: 4rem;
 }
 
 #logo {
     padding-left: 2rem;
     padding-right: 2rem;
+    margin-bottom: 30vh;
 }
 
 #odin {
@@ -42,4 +57,22 @@ body, #container, #right, #left, #logo {
 
 #right {
     flex-direction: column;
+}
+
+
+
+#stack {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+#row {
+    display: flex;
+}
+
+button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
